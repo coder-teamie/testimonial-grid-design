@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Desktop Layout Screenshot.png)
-![](./images/Mobile Layout Screenshot.png)
+![](./images/Desktop-Layout-Screenshot.png)
+![](./images/Mobile-Layout-Screenshot.png)
 
 ### Links
 
