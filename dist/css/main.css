@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -18,7 +18,7 @@
   position: relative;
 }
 
-.grid-1 .testimonial h3 {
+.grid-1 .testimonial h1 {
   z-index: 5;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .grid-1::after {
-  content: url("/images/bg-pattern-quotation.svg");
+  content: url('/images/bg-pattern-quotation.svg');
   width: 6rem;
   height: 1rem;
   color: #ecf2f8;
@@ -41,20 +41,24 @@
   color: white;
 }
 
-.grid-3, .grid-5 {
+.grid-3,
+.grid-5 {
   color: #19212e;
   background-color: white;
 }
 
-.grid-3 .author-info, .grid-5 .author-info {
+.grid-3 .author-info,
+.grid-5 .author-info {
   color: #48556a;
 }
 
-.grid-3 .testimonial, .grid-5 .testimonial {
+.grid-3 .testimonial,
+.grid-5 .testimonial {
   color: #48556a;
 }
 
-.grid-3 .testimonial h3, .grid-5 .testimonial h3 {
+.grid-3 .testimonial h1,
+.grid-5 .testimonial h1 {
   color: #48556a;
 }
 
@@ -103,7 +107,7 @@
   grid-template-columns: 1fr;
 }
 
-.testimonial h3 {
+.testimonial h1 {
   font-size: 1.25rem;
   margin-bottom: 1rem;
   color: white;
@@ -166,7 +170,9 @@ main {
     gap: 2rem;
     grid-template-columns: repeat(4, 270px);
     grid-template-rows: 310px 290px;
-    grid-template-areas: 'grid-1 grid-1 grid-2 grid-5' 'grid-3 grid-4 grid-4 grid-5';
+    grid-template-areas:
+      'grid-1 grid-1 grid-2 grid-5'
+      'grid-3 grid-4 grid-4 grid-5';
   }
   .section-center .grid {
     height: 100%;
@@ -181,7 +187,8 @@ main {
   .section-center .grid-2 {
     grid-area: grid-2;
   }
-  .section-center .grid-3, .section-center .grid-5 {
+  .section-center .grid-3,
+  .section-center .grid-5 {
     grid-area: grid-3;
   }
   .section-center .grid-4 {

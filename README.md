@@ -60,7 +60,7 @@ Snippet of a single card structure:
     </div>
   </div>
   <div class="testimonial">
-    <h3>An overall wonderful and rewarding experience</h3>
+    <h1>An overall wonderful and rewarding experience</h1>
     <p>
       “ Thank you for the wonderful experience! I now have a job I really enjoy,
       and make a good living while doing something I love. ”
